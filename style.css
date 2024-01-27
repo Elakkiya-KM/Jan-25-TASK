@@ -1,0 +1,23 @@
+/* styles.css */
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
